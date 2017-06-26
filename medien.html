@@ -43,9 +43,9 @@
 
 <!--Javascript- Teil wird erzeugt. Die erzeugten Javascript arrays werden Variablen zugewiesen.-->
 <script type="text/javascript">
-    var files = ["Ausflug_Lahrbach2","AusflugRommersdorf","Rommersdorf","Konzert2014","OffenesSingen","Weihnachtsfeier2015","Kusber_2015","OffenesSingen2016"];
+    var files = ["Freundschaft","Ausflug_Lahrbach2","AusflugRommersdorf","Rommersdorf","Konzert2014","OffenesSingen","Weihnachtsfeier2015","Kusber_2015","OffenesSingen2016"];
     var hochkant = ["Kusber_2015"];
-    var alt = {"Ausflug_Lahrbach2":"Ausflug nach Lahrbach","AusflugRommersdorf":"Ausflug in die Abtei Rommersdorf","Konzert2014":"Konzert im Jahr 2014","OffenesSingen":"Offenes Singen in Erpel","Weihnachtsfeier2015":"Weinachtsfeier 2015","Kusber_2015":"Herr Kusber gibt die T\u00f6ne an","Rommersdorf":"Ausflug in die Abtei Rommersdorf","OffenesSingen2016":"Offenes Singen am 08. Juli 2016 in Erpel"};
+    var alt = {"Freundschaft":"Freundschaftssingen in Güls","Ausflug_Lahrbach2":"Ausflug nach Lahrbach","AusflugRommersdorf":"Ausflug in die Abtei Rommersdorf","Konzert2014":"Konzert im Jahr 2014","OffenesSingen":"Offenes Singen in Erpel","Weihnachtsfeier2015":"Weinachtsfeier 2015","Kusber_2015":"Herr Kusber gibt die T\u00f6ne an","Rommersdorf":"Ausflug in die Abtei Rommersdorf","OffenesSingen2016":"Offenes Singen am 08. Juli 2016 in Erpel"};
     
     //$(files).each(function () {
         //$("<img />").attr('src', "image/gallery/"+this+".jpg");
@@ -58,6 +58,11 @@
     <!--Alle Bilder werden von dem oberen array ausgegeben. Nach 5 Bildern wird ein Zeilenumbruch erzeugt.-->
         <!--Es wird überprüft, ob ein Bild einem Text zugewieden wurde.-->
     <tr valign="middle" align="center">
+	       <!--Link zu der Javascript Datei wird ausgegeben.-->
+      <td style="padding-bottom:15px;">
+        <a href="javascript:show(7)"><img src="image/gallery/Thumbnail/Thumb_Freundschaft.jpg" alt='Freundschaftssingen' title='Freundschaftssingen in Güls' />
+        </a>
+    </td>
           <!--Link zu der Javascript Datei wird ausgegeben.-->
       <td style="padding-bottom:15px;">
         <a href="javascript:show(0)"><img src="image/gallery/Thumbnail/Thumb_Ausflug_Lahrbach2.jpg" alt='Ausflug nach Lahrbach' title='Ausflug nach Lahrbach' />
