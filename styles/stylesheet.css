@@ -297,6 +297,11 @@ a:hover{
     margin-right:auto;
     margin-top:55px;
 }
+.gallery table{
+	border-collapse:separate;
+	border-spacing: 5px;
+}
+
 
 #dunkelheit {
     position: fixed;
